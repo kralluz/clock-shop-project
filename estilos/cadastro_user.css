@@ -9,3 +9,9 @@
 h1 {
     text-align: center;
 }
+
+a {
+    font-size: larger;
+    font-weight: 600;
+    text-decoration: none;
+}
