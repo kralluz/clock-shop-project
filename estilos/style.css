@@ -26,14 +26,16 @@ img.logo {
     padding: 15px 20px;
 }
 
-img.relogioheader {
+div.relogioheader {
+    display: block;
     
+}
+
+img.relogioheader {
+    display: block;
     width: 100vw;
-    height: 500px;
     background-color: rgb(24, 24, 24);
-    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
     
 }
 
