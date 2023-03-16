@@ -39,7 +39,7 @@ nav > p > a {
 
 nav p:hover {
     transform: translateY(-5px);
-    transition: .5s;
+    transition: 1s;
 }
 
 nav.user > p {
@@ -58,5 +58,9 @@ nav.user {
 
 nav.user > p:hover {
     color: rgb(20, 20, 20);
-    background-color: rgb(2, 2, 2);
+    background-color: rgb(255, 255, 255);
+}
+
+nav.user > p:hover a {
+    color: rgb(0, 0, 0);
 }
