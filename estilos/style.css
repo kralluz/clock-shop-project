@@ -7,7 +7,8 @@
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
+    
 }
 
 
@@ -17,6 +18,7 @@ menu {
     display: flex;
     color: white;
     font-weight: 500;
+    backdrop-filter: blur(10px);
 }
 
 img.logo {
@@ -25,11 +27,14 @@ img.logo {
 }
 
 img.relogioheader {
+    
     width: 100vw;
+    height: 500px;
     background-color: rgb(24, 24, 24);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover;
+    
 }
 
 nav > p{
