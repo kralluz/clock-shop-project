@@ -15,3 +15,9 @@ a {
     font-weight: 600;
     text-decoration: none;
 }
+
+#quick-loguin {
+    font-weight:600;
+    margin-top: 80px;
+    text-align: center;
+}
