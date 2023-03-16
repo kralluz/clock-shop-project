@@ -7,11 +7,41 @@
 }
 
 menu {
-    background-color: rgb(28, 28, 28);
+    background-color: rgb(13, 13, 13);
+    display: flex;
+    color: white;
+    font-weight: 500;
 }
 
 img.logo {
-    width: 45px;
-    padding: 10px;
+    width: 35px;
+    padding: 15px 20px;
 }
 
+img.relogioheader {
+    width: 100vw;
+    background-color: rgb(24, 24, 24);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+nav > p{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+nav > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+nav p:hover {
+    transform: translateY(-5px);
+    transition: .5s;
+}
+
+nav.user > p {
+    border: 1px solid white;
+    padding: 10px;
+}
