@@ -23,10 +23,25 @@ a {
 }
 
 .linha {
+    display: block;
     background-color: black;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-top: 25px;
     padding: 1px;
+}
 
+
+ul > li {
+    margin-top:30px;
+    margin-left:auto;
+    align-items: center;;
+    display: inline-block;
+
+}
+
+#formulario {
+    background-color: lightslategrey;
+    margin-left: 250px;
+    margin-right: 250px;
 }
