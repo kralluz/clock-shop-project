@@ -10,3 +10,8 @@ menu {
     background-color: rgb(28, 28, 28);
 }
 
+img.logo {
+    width: 45px;
+    padding: 10px;
+}
+
