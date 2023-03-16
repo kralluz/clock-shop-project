@@ -6,6 +6,11 @@
     margin: 0px;
 }
 
+body {
+    overflow: hidden;
+}
+
+
 menu {
     background-color: rgb(17, 17, 17);
     position: relative;
