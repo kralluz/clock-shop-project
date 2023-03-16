@@ -6,6 +6,10 @@
     padding: 0px;
 }
 
+main {
+    position: relative;
+}
+
 h1 {
     text-align: center;
 }
@@ -51,5 +55,8 @@ ul > li {
 }
 
 form {
-    display: ;
+    text-align: center;
+}
+input {
+    display:block;
 }
