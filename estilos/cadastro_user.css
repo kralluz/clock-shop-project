@@ -21,3 +21,12 @@ a {
     margin-top: 80px;
     text-align: center;
 }
+
+.linha {
+    background-color: black;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 25px;
+    padding: 1px;
+
+}
