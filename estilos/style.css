@@ -7,7 +7,8 @@
 }
 
 menu {
-    background-color: rgb(13, 13, 13);
+    background-color: rgb(17, 17, 17);
+    position: relative;
     display: flex;
     color: white;
     font-weight: 500;
@@ -42,6 +43,20 @@ nav p:hover {
 }
 
 nav.user > p {
-    border: 1px solid white;
-    padding: 10px;
+    
+    border: 2px solid white;
+    padding: 5px 15px;
+    margin-top: 14px;
+    border-radius: 7px;
+    margin-right: 10px;
+}
+
+nav.user {
+    position: absolute;
+    right: 10px;
+}
+
+nav.user > p:hover {
+    color: rgb(20, 20, 20);
+    background-color: rgb(2, 2, 2);
 }
