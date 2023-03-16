@@ -6,6 +6,11 @@
     padding: 0px;
 }
 
+body {
+    background-color: black;
+    color: white;
+}
+
 main {
     position: relative;
 }
@@ -35,7 +40,6 @@ a {
     padding: 1px;
 }
 
-
 ul > li {
     margin-top:30px;
     margin-left:auto;
@@ -55,8 +59,9 @@ ul > li {
 }
 
 form {
-    text-align: center;
+    margin: auto;
 }
+
 input {
     display:block;
 }
