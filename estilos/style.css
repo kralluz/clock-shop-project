@@ -6,12 +6,19 @@
     margin: 0px;
 }
 
+body {
+    overflow-x: hidden;
+    
+}
+
+
 menu {
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(30, 30, 30);
     position: relative;
     display: flex;
     color: white;
     font-weight: 500;
+    backdrop-filter: blur(10px);
 }
 
 img.logo {
@@ -19,12 +26,17 @@ img.logo {
     padding: 15px 20px;
 }
 
+div.relogioheader {
+    display: block;
+    
+}
+
 img.relogioheader {
+    display: block;
     width: 100vw;
     background-color: rgb(24, 24, 24);
-    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;   
+    
 }
 
 nav > p{
@@ -39,7 +51,7 @@ nav > p > a {
 
 nav p:hover {
     transform: translateY(-5px);
-    transition: .5s;
+    transition: 1s;
 }
 
 nav.user > p {
@@ -58,5 +70,9 @@ nav.user {
 
 nav.user > p:hover {
     color: rgb(20, 20, 20);
-    background-color: rgb(2, 2, 2);
+    background-color: rgb(255, 255, 255);
+}
+
+nav.user > p:hover a {
+    color: rgb(0, 0, 0);
 }
