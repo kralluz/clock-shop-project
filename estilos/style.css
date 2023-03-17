@@ -8,17 +8,19 @@
 
 body {
     overflow-x: hidden;
-    
+    height: 2000px;
 }
 
+header
 
 menu {
     background-color: rgb(30, 30, 30);
-    position: relative;
+    position: sticky;
+    top: 0px;
+    width: 100vw;
     display: flex;
     color: white;
     font-weight: 500;
-    backdrop-filter: blur(10px);
 }
 
 img.logo {
