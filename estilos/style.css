@@ -71,6 +71,7 @@ nav.user {
 nav.user > p:hover {
     color: rgb(20, 20, 20);
     background-color: rgb(255, 255, 255);
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1) ;
 }
 
 nav.user > p:hover a {
