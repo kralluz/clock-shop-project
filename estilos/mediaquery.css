@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1920px) { /* PC, TVS ETC... */
     i#iconmenu {
         display: none;
     }

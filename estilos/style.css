@@ -11,8 +11,6 @@ body {
     height: 2000px;
 }
 
-header
-
 menu {
     background-color: rgb(30, 30, 30);
     position: sticky;
@@ -68,7 +66,7 @@ nav.user > p {
 
 nav.user {
     position: absolute;
-    right: 10px;
+    right: 15px;
 }
 
 nav.user > p:hover {
@@ -79,4 +77,8 @@ nav.user > p:hover {
 
 nav.user > p:hover a {
     color: rgb(0, 0, 0);
+}
+
+i#iconmenu {
+    vertical-align: middle;
 }
