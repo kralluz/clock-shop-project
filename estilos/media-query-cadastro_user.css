@@ -9,7 +9,7 @@ Grandes Telas: acima de 1200px */
 
 
 
-@media screen and (min-width:499px) {
+@media screen and (max-width:600px) {
     
 body {
     background-image: url(../images/relogio3.jpg);
@@ -124,8 +124,14 @@ form {
 
 }
 
-@media screen and (max-width:600px) {
-
+@media screen and (min-width:601px) and (max-width:700px) {
+    body {
+        background-image: url(../images/relogio3.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:200%;
+        color: white
+    }
 }
 
 @media screen and (min-width:601px) and (max-width:992px) {
