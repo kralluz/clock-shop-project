@@ -51,14 +51,15 @@ nav > p > a {
 
 nav p:hover {
     transform: translateY(-5px);
-    transition: 1s;
+    transition: .5s;
+    cursor: pointer;
 }
 
 nav.user > p {
     
     border: 2px solid white;
     padding: 5px 15px;
-    margin-top: 14px;
+    margin-top: 17px;
     border-radius: 7px;
     margin-right: 10px;
 }
@@ -71,6 +72,7 @@ nav.user {
 nav.user > p:hover {
     color: rgb(20, 20, 20);
     background-color: rgb(255, 255, 255);
+    transition-timing-function: cubic-bezier(0.5, 3, 1, 1);
 }
 
 nav.user > p:hover a {
