@@ -34,7 +34,7 @@ a#back {
 
 main {
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.316);
+    background-color: rgba(29, 29, 29, 0.582);
     margin: 30px; 
     border-radius: 30px;
     padding: 10px;
@@ -60,6 +60,7 @@ ul {
 ul>li {
     display: inline;
     list-style: none;
+    margin-right: 20px;
 }
 
 div.formulario {
@@ -79,10 +80,16 @@ form {
 
 input {
     display: block;
-    border-radius:6px;
-    background-color:rgba(255, 255, 255, 0.607) ;
+    border-radius:10px;
+    background-color:rgb(255, 255, 255) ;
     width: 300px;
-    height: 60px;
+    height: 30px;
+    margin-bottom: 5px;
+    border-style: none;
+    text-align: left;
+    text-indent: 10px;
+    font-weight: 700;
+
 }
 
 }
