@@ -1,0 +1,47 @@
+@charset "utf-8";
+/*  Typical Devices Breakpoints
+---------------------------------
+Pequenas telas : até 600px
+celular: de 601px até 768px
+Tablet: 769px até 992px
+Desktop: 993px até 1200px
+Grandes Telas: acima de 1200px */
+
+
+
+@media screen and (min-width:499px) {
+    
+body {
+    background-image: url(../images/relogio3.jpg);
+    background-repeat: no-repeat;
+    background-size:190%;
+    color: white
+}
+
+.buttonback {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+a {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius:6px;
+}
+
+}
+
+@media screen and (max-width:600px) {
+
+}
+
+@media screen and (min-width:601px) and (max-width:992px) {
+
+}   
+
+@media screen and (min-width:1100px) {
+
+}
