@@ -1,7 +1,25 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 360px) and (max-width: 411px) {
-    nav.menubg {
+@media screen and (min-width: 360px) and (max-width: 768px) { /* CELULAR */
+    nav.navegacao {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1366px) { /* TABLET */
+    i#iconmenu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1920px) { /* LAPTOP */
+    i#iconmenu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    i#iconmenu {
         display: none;
     }
 }
