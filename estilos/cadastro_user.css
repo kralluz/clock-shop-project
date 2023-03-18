@@ -8,10 +8,10 @@ body {
     margin: 0px;
     padding: 0px;
     background-image: url(../images/relogio-header-desktop.jpg);
-    background-size: cover;
+    background-size: contain    ;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size:200%;
+    background-size:400%;
     color: white;
 }
 
