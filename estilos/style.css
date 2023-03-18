@@ -89,8 +89,8 @@ i#iconmenu {
 }
 
 div.botao > a > button:hover {
-    background-color: rgba(255, 255, 255, 0.101);
-    backdrop-filter: blur(7px);
+    background-color: rgba(255, 255, 255, 0.052);
+    backdrop-filter: blur(3px);
     transition: .5s;
 }
 
