@@ -7,7 +7,9 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-image: url(../images/relogio3.jpg);
+    background-image: url(../images/relogio-header-desktop.jpg);
+    background-size: cover;
+    background-attachment: ;
     background-repeat: no-repeat;
     background-position: center center;
     background-size:200%;
