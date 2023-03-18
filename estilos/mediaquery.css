@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 360px) and (max-width: 768px) { /* CELULAR */
+@media screen and (min-width: 360px) and (max-width:767.98px) { /* CELULAR */
     nav.navegacao {
         display: none;
         }
@@ -21,14 +21,14 @@
     }
 
 
-@media screen and (min-width: 768px) and (max-width: 1366px) { /* TABLET */
+@media screen and (min-width: 768px) and (max-width: 991.98px) { /* TABLET */
     i#iconmenu {
         display: none;
     }
 }
 
     div.botao > a > button {
-        top: 43%;
+        
     }
 
 
