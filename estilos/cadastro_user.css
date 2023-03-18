@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: rgb(55, 55, 55);
     margin: 0px;
     padding: 0px;
     background-image: url(../images/relogio-header-desktop.jpg);
