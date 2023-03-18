@@ -3,6 +3,7 @@
 @media screen and (min-width: 360px) and (max-width: 768px) { /* CELULAR */
     nav.navegacao {
         display: none;
+        }
     }
 
     i#iconmenu {
@@ -12,10 +13,13 @@
         color: white;
     }
 
-    div.botao > button {
+    div.botao > a > button {
         top: 70%;
+        width: 175px;
+        height: 50px;
+        border-radius: 25px;
     }
-}
+
 
 @media screen and (min-width: 768px) and (max-width: 1366px) { /* TABLET */
     i#iconmenu {
