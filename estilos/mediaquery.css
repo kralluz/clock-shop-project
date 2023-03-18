@@ -15,7 +15,7 @@
 
     div.botao > a > button {
         top: 70%;
-        width: 175px;
+        width: 200px;
         height: 50px;
         border-radius: 25px;
     }
@@ -26,6 +26,12 @@
         display: none;
     }
 }
+
+    div.botao > a > button {
+        top: 43%;
+    }
+
+
 
 @media screen and (min-width: 1366px) and (max-width: 1920px) { /* LAPTOP */
     i#iconmenu {
