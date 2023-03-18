@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+@media screen and ( max-width: 80px ) {
+    body {
+        background-image: url(../images/relogio-header-tablet.jpg);
+    }
+}

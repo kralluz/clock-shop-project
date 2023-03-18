@@ -7,11 +7,12 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-image: url(../images/relogio3.jpg);
+    background-image: url(../images/relogio-header-desktop.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-size:200%;
-    color: white
+    color: white;
 }
 
 h1 {
@@ -114,7 +115,7 @@ form {
 }
 
 #sub {
-    margin-top:10px ;
+    margin-top:10px;
     background-color:rgb(175, 0, 0);
     border-style: none;
     color: white;
@@ -122,9 +123,39 @@ form {
     width: 300px;
     height: 30px;
     font-size:large;
-    font-weight: 500
+    font-weight: 500;
 }
 
 .termos {
     color: aliceblue;
+}
+
+#sub:hover {
+    background-color: red;
+    transition-timing-function: cubic-bezier(0.5, 3, 1, 1);
+    transform: translateY(-5px);
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+#back:hover {
+    background-color: red;
+    transition-timing-function: cubic-bezier(0.5, 3, 1, 1);
+    transform: translateY(-5px);
+    transition: .3s;
+    cursor: pointer;
+    
+}
+
+#back {
+    margin-top:10px;
+    background-color:rgb(175, 0, 0);
+    border-style: none;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    font-size:large;
+    font-weight: 500;
 }
