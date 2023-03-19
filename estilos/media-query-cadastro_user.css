@@ -48,6 +48,14 @@ main {
 @media screen and ( max-width: 375px ) {
     main {
         width: 280px;
+        background-color: darkgray;
+    }
+
+}
+
+@media screen and ( max-width: 375px ) {
+    main {
+        width: 280px;
     }
 
 }
