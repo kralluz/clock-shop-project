@@ -1,5 +1,39 @@
 @charset "utf-8";
 
+@media screen and ( min-width: 400px ) {
+    
+    body {
+        background-color: black;
+        background-position: center center;
+        background-size: 180%;
+    }
+
+    
+a#back:hover {
+    color: rgb(20, 20, 20);
+    background-color: rgb(255, 255, 255);
+    transition-timing-function: cubic-bezier(0.5, 3, 1, 1);
+    transform: translateY(-5px);
+    transition: .3s;
+    cursor: pointer;
+}
+
+a#back {
+margin: 20px;
+padding: 5px;
+text-decoration: none;
+color: white;
+border: 2px solid rgb(255, 255, 255);
+border-radius:6px;
+
+}
+
+main {
+    margin-top: 20px;
+}
+
+}
+
 @media screen and ( max-width: 80px ) {
     body {
         background-image: url(../images/relogio-header-tablet.jpg);
