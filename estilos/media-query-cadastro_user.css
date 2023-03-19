@@ -34,8 +34,9 @@ main {
 
 }
 
-@media screen and ( max-width: 80px ) {
+@media screen and ( max-width: 414px ) {
     body {
-        background-image: url(../images/relogio-header-tablet.jpg);
+        background-color: black;
+        background-size: 360%;
     }
 }
