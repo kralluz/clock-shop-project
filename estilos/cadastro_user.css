@@ -23,7 +23,14 @@ a.termos {
 }
 
 a {
+    font-weight: 700;
+    color: rgb(0, 191, 255);
     text-shadow: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 136, 255);
 }
 
 a#back {
@@ -31,9 +38,15 @@ a#back {
 }
 
 h1 {
-    color: white;
-margin-bottom: 0px;
-margin-top: 0px;
+    color: rgb(232, 232, 232);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: rgba(59, 59, 59, 0.179);
+    border-radius: 14px;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 8px;
 }
 
 div.Backbutton {
