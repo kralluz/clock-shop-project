@@ -22,6 +22,10 @@ a.termos {
     color: white;
 }
 
+a {
+    text-shadow: none;
+}
+
 a#back {
     background-color: rgba(53, 53, 53, 0.638);
 }
@@ -74,6 +78,13 @@ main {
     border-radius: 20px;
     padding-top: 3px;
     padding-bottom: 3px;
+}
+
+img:hover {
+    transition-timing-function: cubic-bezier(0.5, 3, 1, 1);
+    transform: translateY(-5px);
+    transition: .3s;
+    cursor: pointer;
 }
 
 ul {
@@ -142,6 +153,7 @@ form {
 .termos {
     color: aliceblue;
     text-decoration: none;
+    text-shadow: 2px 2px 2px black;
 }
 
 #sub:hover {
