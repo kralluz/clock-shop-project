@@ -14,12 +14,16 @@ body {
     background-size:100%;
     color: rgb(255, 255, 255);
     font-weight: 600;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 a.termos {
     font-weight: 700;
     color: white;
+}
+
+a#back {
+    background-color: rgba(53, 53, 53, 0.638);
 }
 
 h1 {
@@ -28,7 +32,7 @@ margin-bottom: 0px;
 margin-top: 0px;
 }
 
-.Backbutton {
+div.Backbutton {
 margin-top: 20px;
 margin-left: 20px;
 }
@@ -40,7 +44,6 @@ a#back:hover {
         transform: translateY(-5px);
         transition: .3s;
         cursor: pointer;
-        
     }
 
 a#back {
@@ -115,7 +118,7 @@ form {
     display: block;
     border-radius:10px;
     background-color:rgb(255, 255, 255) ;
-    width: 300px;
+    width: 250px;
     height: 30px;
     margin-bottom: 5px;
     border-style: none;
@@ -130,7 +133,7 @@ form {
     border-style: none;
     color: white;
     border-radius: 20px;
-    width: 300px;
+    width: 250px;
     height: 30px;
     font-size:large;
     font-weight: 500;
@@ -138,6 +141,7 @@ form {
 
 .termos {
     color: aliceblue;
+    text-decoration: none;
 }
 
 #sub:hover {
