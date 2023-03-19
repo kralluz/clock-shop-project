@@ -37,7 +37,7 @@ main {
 @media screen and ( max-width: 414px ) {
     body {
         background-color: black;
-        background-size: 380%;
+
     }
 
     main {
@@ -53,7 +53,13 @@ main {
 
 }
 
-@media screen and ( max-width: 375px ) {
+@media screen and ( max-width: 500px ) {
+    
+    body {
+        background-size: 500%;
+        background-position: left center;;
+    }
+
     main {
         width: 280px;
     }
