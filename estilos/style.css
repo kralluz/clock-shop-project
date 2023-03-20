@@ -1,113 +1,162 @@
-@charset "UTF-8";
+@charset "utf-8";
 
-* {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 0px;
-    margin: 0px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
     overflow-x: hidden;
-    height: 2000px;
-    background-color: blue;
 }
 
-header {
-    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.538);
+* {
+    padding: 0;
+    margin: 0;
 }
 
-menu {
-    background-color: rgb(30, 30, 30);
-    position: sticky;
-    top: 0px;
-    width: 100vw;
+menu.cabeçalho {
+    background-color: rgb(13, 13, 13);
     display: flex;
-    color: white;
-    font-weight: 500;
+    justify-content: space-between;
+    width: 100vw;
+    height: 75px;
+    align-items: center;
+}
+
+menu.cabeçalho-mobile {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 20px;
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 30px;
+    height: 45px;
+    align-items: center;
+    justify-content: space-evenly;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.133);
 }
 
 img.logo {
+    display: flex;
+    margin-left: 10px;
     width: 35px;
-    padding: 15px 20px;
+    height: 35px;
 }
 
-div.relogioheader {
-    display: block;
-    
+nav.principal-desktop > a > p { /* Ativar para display: inline-block para desktop; */
+    display: none;
 }
 
-img.relogioheader {
-    display: block;
-    width: 100vw;
-    background-color: rgb(24, 24, 24);
-    background-repeat: no-repeat;
-    
-}
-
-nav > p{
+nav.principal-mobile > a > p{
     display: inline-block;
-    padding: 20px 10px;
+    font-weight: 600;
+    font-size: .8em;
+    margin: 0px 15px;
 }
 
-nav > p > a {
-    color: white;
+nav.principal-mobile > a {
     text-decoration: none;
-}
-
-nav p:hover {
-    transform: translateY(-5px);
-    transition: .5s;
-    cursor: pointer;
-}
-
-nav.user > p {
-    
-    border: 2px solid white;
-    padding: 5px 15px;
-    margin-top: 17px;
-    border-radius: 7px;
-    margin-right: 10px;
-}
-
-nav.user {
-    position: absolute;
-    right: 15px;
-}
-
-nav.user > p:hover {
-    color: rgb(20, 20, 20);
-    background-color: rgb(255, 255, 255);
-    transition-timing-function: cubic-bezier(0.5, 3, 1, 1);
-}
-
-nav.user > p:hover a {
-    color: rgb(0, 0, 0);
-}
-
-i#iconmenu {
-    vertical-align: middle;
-}
-
-div.botao > a > button:hover {
-    
-    backdrop-filter: blur(3px);
-    transition: .5s;
-}
-
-div.botao > a > button {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
     color: white;
-    font-weight: bold;
-    background-color: rgba(255, 255, 255, 0);
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 20px;
+}
+
+nav.principal-mobile > a:hover p {
+    transform: translate(0px,-7px);
+    transition: 1s;
+}
+
+nav.cadastro-login > a {
+    color: white;
+}
+
+nav.cadastro-login > a > p {
+    display: inline-block;
+    margin: 0px 15px 0px 0px;
+    justify-items: center;
+    padding: 7px 15px;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: .9em;
+    font-weight: 600;
+}
+
+#botaocadastro:hover {
+    transform: translateY(-10px);
+}
+
+nav.cadastro-login > a > p:hover {
+    color: black;
+    background-color: white;
+    transform: translateY(-10px);
+    transition-timing-function: cubic-bezier(0.5, 3, 1, 1);
+    transition: 1s;
+}
     
+img.header {
+    width: 100vw;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.583)
+}
+
+img.header:hover {
+    
+}
+
+h1.titulo {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-weight: 600;
+    word-spacing: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    width: 70%;
+    margin: auto;
+}
+
+#h1vantagens {
+    padding: 20px;
+    color: black;
+}
+
+main.sobrenos > p {
+    margin-top: 10px;
+    
+}
+
+section.sobre {
+    margin: 10px 30px;
+    text-align: justify;
+    word-spacing: 3px;
+}
+
+div.icones {
+    display: flex;
+    margin-top: 20px ;
+    justify-content: space-around;
+    width: 100vw;
+
+}
+
+div.icones > i {
+    font-size: 2.3em;
+}
+
+div.icones >i:hover {
+    transform: scale(1.5);
+    transition: transform 1s ease;
     cursor: pointer;
-    
-    width: 150px;
-    height: 40px;
+}
+div.textos {
+    display: flex;
+    text-align: justify;
+    width: 100%;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+div.textos > p {
+    width: 25%;
+    font-size: .9em;
 }
