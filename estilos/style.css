@@ -72,7 +72,7 @@ nav.cadastro-login > a {
 
 nav.cadastro-login > a > p {
     display: inline-block;
-    margin: 0px 15px 0px 0px;
+    margin: 0px 1px 0px 0px;
     justify-items: center;
     padding: 7px 15px;
     border: 1px solid white;
@@ -95,7 +95,7 @@ nav.cadastro-login > a > p:hover {
     
 img.header {
     width: 100vw;
-    height: 700px;
+    height:450px;
     object-fit: cover;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.583)
 }
