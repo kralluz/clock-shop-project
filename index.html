@@ -4,42 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WatchStore</title>
-    <link rel="stylesheet" href="estilos/style.css" media="all">
-    <link rel="stylesheet" href="estilos/mediaquery.css" media="screen">
+    <title>Watch Store</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
 </head>
 <body>
     <header>
-        <menu>
-            <div class="logo">
-                <img class="logo" src="images/logo-relogio-branco.png" alt="logo-relogio">
-            </div >
-            <nav class="navegacao">
-                <p><a href="#">Produtos</a></p>
-                
-                <p><a href="about_us.html">Sobre nós</a></p>
-                
-                <p><a href="#">Avaliações dos clientes</a></p>
+        <menu class="cabeçalho">
+            <div>
+                <img class="logo" src="imagens/logo.png" alt="logo-relógio">
+            </div>
+            <nav class="principal-desktop">
+                <a href="">
+                    <p>Início</p></a>
+                <a href="">
+                    <p>Produtos</p></a>
+                <a href="">
+                    <p>Avaliações</p></a>
             </nav>
-            <nav>
-                <a href="#"><i id="iconmenu" class="material-icons">menu</i></a>
-            </nav>
-            <nav class="user">
-                <p><a href="login user.html">Entrar</a></p>
-                <p><a href="cadastro user.html">Cadastre-se</a></p>
+            <nav class="cadastro-login">
+                <a id="botaocadastro" href="#"><p>
+                    Cadastre-se
+                </p></a>
+                <a id="botaologin" href="#"><p>
+                    Entrar
+                </p></a>
             </nav>
         </menu>
-        <div class="relogioheader">
-            <picture>
-                <source media="(max-width: 768px )" srcset="images/relogio-header-tel.jpg" type="image/jpg">
-                <source media="(max-width: 1200px)" srcset="images/relogio-header-tablet.jpg" type="image/jpg">
-                <img class="relogioheader" src="images/relogio-header-desktop.jpg" alt="relógio">
-            </picture>
-        <div class="botao">
-            <a href=""><button> Veja as ofertas</button></a>
-        </div>
+        <menu class="cabeçalho-mobile">
+            <nav class="principal-mobile">
+                <a href="">
+                    <p>Ínicio</p>
+                </a>
+                <a href="">
+                    <p>Produtos</p>
+                </a>
+                <a href="">
+                    <p>Avaliações</p>
+                </a>
+            </nav>
+        </menu>
+        <img class="header" src="imagens/celular/relogioprincipal.jpg" alt="">
     </header>
+    <section class="sobre">
+        <main class="sobrenos">
+            <h1 class="titulo">SOBRE NÓS</h1>
+
+            <p>Bem-vindo à nossa empresa de relógios de alta qualidade e luxo! Somos uma loja online que está no mercado há 7 anos e temos orgulho de oferecer aos nossos clientes produtos de alta qualidade e design exclusivo. Nós acreditamos que um relógio é mais do que apenas um acessório para medir o tempo, ele é uma declaração de estilo e personalidade.</p>
+        
+            
+        </main>
+    </section>
+    <section>
+        <div class="vantagens">
+            <div class="icones">
+                <i class="material-icons">verified_user</i>
+                <i class="material-icons">local_shipping</i>
+                <i class="material-icons">currency_exchange</i>
+            </div>
+            <div class="textos">
+                <p>
+                    Todos os nossos produtos possuem garantia de fábrica de no mínimo 5 meses, onde se houver problemas você consegue reembolsar ou fazer a troca rapidamente. 
+                </p>
+                <p>
+                    Atendemos todas as regiões do Brasil onde produtos acima de 356,00 reais possuem <strong>frete grátis </strong> e descontos de 20% caso more na região sul do Brasil.
+                </p>
+                <p>
+                    Você tambem consegue fazer a devolução do produto em até 7 dias recebendo 100% do seu dinheiro de volta, pagando o frete
+                </p>
+            </div>
+        </div>
+    </section>
     
-</body>
+    </body>
 </html>
