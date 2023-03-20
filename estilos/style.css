@@ -94,17 +94,28 @@ nav.cadastro-login > a > p:hover {
 }
     
 img.header {
+    display: block;
     width: 100vw;
     height:450px;
     object-fit: cover;
+    margin: 0px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.583)
 }
 
-img.header:hover {
+div.espaçamento {
+    
+    background-color: rgb(13, 13, 13);
+    width: 100vw;
+    height: 75px;
     
 }
 
-h1.titulo {
+
+
+
+
+
+/* h1.titulo {
     color: rgb(0, 0, 0);
     padding: 5px;
     font-weight: 600;
@@ -159,4 +170,4 @@ div.textos {
 div.textos > p {
     width: 25%;
     font-size: .9em;
-}
+} */
