@@ -10,13 +10,33 @@
         
     }
 
+    menu.cabeçalho {
+        justify-content: space-between;
+    }
+
     nav.principal-desktop > a {
         color: white;
     }
     nav.principal-desktop > a > p {
         margin-right: 50px;
     }
-    
+    nav.principal-desktop > a > p {
+        font-size: .9em;
+    }
+    img.logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    menu.cabeçalho {
+        height: 50px;
+    }
+
+    nav.cadastro-login > a > p {
+        padding: 3px 11px;
+        font-size: .9em;
+        font-weight: 400;
+    }
 }
 
 @media screen and (min-width:1366px) {
@@ -26,8 +46,8 @@
         height: 690px;
         object-fit: cover;
         box-shadow: inset 1px 1px 10px black;
-        
     }
+   
 
     img.header-celular {
         display: none;
