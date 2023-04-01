@@ -32,6 +32,17 @@
         height: 50px;
     }
 
+    img.header-celular {
+        display: none;
+    }
+
+    img.header-desktop {
+        display: block;
+        width: 100vw;
+        object-fit: cover;
+        height: 100vh;
+    }
+
     nav.cadastro-login > a > p {
         padding: 3px 11px;
         font-size: .9em;
