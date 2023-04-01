@@ -28,7 +28,7 @@ menu.cabeçalho-mobile {
     left: 50%;
     transform: translate(-50%);
     margin-top: 20px;
-    width: 80vw;
+    width: 70vw;
     border: 1px solid white;
     border-radius: 30px;
     height: 45px;
@@ -114,4 +114,38 @@ img.header-celular {
 img.header-desktop {
     display: none;
 }
+
+
+div#titulo > h1 {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+section#catalogo {
+    display: none;
+}
+
+section#catalogo-c {
+    display: flex;
+    background-color: #fff;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.catalogo-c {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border-radius: 15px;
+}
+
+div.catalogo-c {
+    margin-bottom: 5%;
+}
+
+
 

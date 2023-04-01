@@ -48,6 +48,83 @@
         font-size: .9em;
         font-weight: 400;
     }
+
+    section#catalogo {
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    div#titulo > h1 {
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 2.5em;
+        font-weight: 700;
+    
+    }
+    
+    div.catalogo {
+        background-color: aqua;
+        flex-basis: 20%;
+        height: 70vh;
+        width: 50vw;
+        margin: 0px 0px 10vh 0px;
+        align-items: center;
+        border-radius: 10px;
+    }
+    
+    div#item1 {
+        flex-grow: 1;
+        margin-left: 15%;
+    
+        transition-property: flex-grow;
+        transition-duration: .5s;
+        background-image: url(../imagens/relogio-celular.jpg);
+        background-position: center center;
+        background-size: cover;
+        backdrop-filter: blur(5px);
+    }
+    
+    div#item2 {
+        flex-grow: .5;
+        margin: 0px 1%;
+        transition-property: flex-grow;
+        transition-duration: .5s;
+        background-image: url(../imagens/relogio-celular.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    div#item3 {
+        flex-grow: 1;
+        margin-right: 15%;
+        transition-property: flex-grow;
+        transition-duration: .5s;
+        background-image: url(../imagens/relogio-celular.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    div#item1:hover {
+        flex-grow: 20;
+        animation-name: animação-catalogo;
+        animation-duration: 2s;
+    }
+    
+    div#item2:hover {
+        flex-grow: 20;
+    }
+    
+    div#item3:hover {
+        flex-grow: 20;
+    }
+
+    section#catalogo-c {
+        display: none;
+    }
 }
 
 @media screen and (min-width:1366px) {
@@ -62,6 +139,79 @@
 
     img.header-celular {
         display: none;
+    }
+
+    section#catalogo {
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    div#titulo > h1 {
+        background-color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 2.5em;
+        font-weight: 700;
+    
+    }
+    
+    div.catalogo {
+        background-color: aqua;
+        flex-basis: 20%;
+        height: 70vh;
+        width: 50vw;
+        margin: 0px 0px 10vh 0px;
+        align-items: center;
+        border-radius: 10px;
+    }
+    
+    div#item1 {
+        flex-grow: 1;
+        margin-left: 15%;
+    
+        transition-property: flex-grow;
+        transition-duration: .5s;
+        background-image: url(../imagens/relogio-celular.jpg);
+        background-position: center center;
+        background-size: cover;
+        backdrop-filter: blur(5px);
+    }
+    
+    div#item2 {
+        flex-grow: .5;
+        margin: 0px 1%;
+        transition-property: flex-grow;
+        transition-duration: .5s;
+        background-image: url(../imagens/relogio-celular.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    div#item3 {
+        flex-grow: 1;
+        margin-right: 15%;
+        transition-property: flex-grow;
+        transition-duration: .5s;
+        background-image: url(../imagens/relogio-celular.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    div#item1:hover {
+        flex-grow: 20;
+        animation-name: animação-catalogo;
+        animation-duration: 2s;
+    }
+    
+    div#item2:hover {
+        flex-grow: 20;
+    }
+    
+    div#item3:hover {
+        flex-grow: 20;
     }
 }
 
