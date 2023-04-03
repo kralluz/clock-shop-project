@@ -147,5 +147,23 @@ div.catalogo-c {
     margin-bottom: 5%;
 }
 
+div#item1-c {
+    background-image: url(../imagens/relogio-celular.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+div#item2-c {
+    background-image: url(../imagens/relogio-celular.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+div#item3-c {
+    background-image: url(../imagens/relogio-celular.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
 
 

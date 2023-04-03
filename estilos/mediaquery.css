@@ -51,7 +51,7 @@
 
     section#catalogo {
         display: flex;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(232, 41, 41);
         width: 100vw;
         justify-content: center;
         flex-wrap: wrap;
@@ -65,10 +65,10 @@
         font-weight: 700;
     
     }
-    
+
     div.catalogo {
         background-color: aqua;
-        flex-basis: 20%;
+        flex-basis: 23%;
         height: 70vh;
         width: 50vw;
         margin: 0px 0px 10vh 0px;
@@ -78,14 +78,13 @@
     
     div#item1 {
         flex-grow: 1;
-        margin-left: 15%;
+        margin-left: 10%;
     
         transition-property: flex-grow;
         transition-duration: .5s;
         background-image: url(../imagens/relogio-celular.jpg);
         background-position: center center;
         background-size: cover;
-        backdrop-filter: blur(5px);
     }
     
     div#item2 {
@@ -100,7 +99,7 @@
     
     div#item3 {
         flex-grow: 1;
-        margin-right: 15%;
+        margin-right: 10%;
         transition-property: flex-grow;
         transition-duration: .5s;
         background-image: url(../imagens/relogio-celular.jpg);
@@ -112,14 +111,17 @@
         flex-grow: 20;
         animation-name: animação-catalogo;
         animation-duration: 2s;
+        cursor: pointer;
     }
     
     div#item2:hover {
         flex-grow: 20;
+        cursor: pointer;
     }
     
     div#item3:hover {
         flex-grow: 20;
+        cursor: pointer;
     }
 
     section#catalogo-c {
