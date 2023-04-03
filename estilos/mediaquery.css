@@ -51,14 +51,14 @@
 
     section#catalogo {
         display: flex;
-        background-color: rgb(232, 41, 41);
         width: 100vw;
         justify-content: center;
         flex-wrap: wrap;
+        background-color: rgb(235, 235, 235);
     }
     
     div#titulo > h1 {
-        background-color: white;
+        background-color: rgb(235, 235, 235);
         padding: 20px;
         text-align: center;
         font-size: 2.5em;
@@ -68,8 +68,8 @@
 
     div.catalogo {
         background-color: aqua;
-        flex-basis: 23%;
-        height: 70vh;
+        flex-basis: 22%;
+        height: 60vh;
         width: 50vw;
         margin: 0px 0px 10vh 0px;
         align-items: center;
@@ -79,10 +79,12 @@
     div#item1 {
         flex-grow: 1;
         margin-left: 10%;
-    
         transition-property: flex-grow;
-        transition-duration: .5s;
-        background-image: url(../imagens/relogio-celular.jpg);
+        transition-duration: .7s;
+    
+
+
+        background-image: url(../imagens/relógios-div-items/versão-5.jpg);
         background-position: center center;
         background-size: cover;
     }
@@ -91,8 +93,8 @@
         flex-grow: .5;
         margin: 0px 1%;
         transition-property: flex-grow;
-        transition-duration: .5s;
-        background-image: url(../imagens/relogio-celular.jpg);
+        transition-duration: .7s;
+        background-image: url(../imagens/relógios-div-items/versão-6.jpg);
         background-position: center center;
         background-size: cover;
     }
@@ -101,15 +103,14 @@
         flex-grow: 1;
         margin-right: 10%;
         transition-property: flex-grow;
-        transition-duration: .5s;
-        background-image: url(../imagens/relogio-celular.jpg);
+        transition-duration: .7s;
+        background-image: url(../imagens/relógios-div-items/versão-4.jpg);
         background-position: center center;
         background-size: cover;
     }
     
     div#item1:hover {
         flex-grow: 20;
-        animation-name: animação-catalogo;
         animation-duration: 2s;
         cursor: pointer;
     }
