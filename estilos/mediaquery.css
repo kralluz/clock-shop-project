@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+:root {
+    --branco:#eaeaea;
+    --cinza-escuro:#0d0d0d;
+    --cinza-claro:#313131;
+}
+
+
+
 @media screen and (min-width:768px){
     menu.cabeçalho-mobile {
         display: none;
@@ -54,22 +62,23 @@
         width: 100vw;
         justify-content: center;
         flex-wrap: wrap;
-        background-color: rgb(235, 235, 235);
+        background-image: linear-gradient(to bottom,#0d0d0d, #060606);
     }
     
     div#titulo > h1 {
-        background-color: rgb(235, 235, 235);
-        padding: 20px;
+        background-color: var(--cinza-escuro);
+        color: var(--branco);
+        padding: 4% 0 2% 0;
         text-align: center;
-        font-size: 2.5em;
+        font-size: 2em;
         font-weight: 700;
-    
+        letter-spacing: 5px;
+        user-select: none;
     }
 
     div.catalogo {
-        background-color: aqua;
         flex-basis: 22%;
-        height: 60vh;
+        height: 75vh;
         width: 50vw;
         margin: 0px 0px 10vh 0px;
         align-items: center;
@@ -79,12 +88,11 @@
     div#item1 {
         flex-grow: 1;
         margin-left: 10%;
-        transition-property: flex-grow;
-        transition-duration: .7s;
-    
+        transition-property: flex-grow,opacity;
+        transition-duration: .7s, .7s;
 
 
-        background-image: url(../imagens/relógios-div-items/versão-5.jpg);
+        background-image: url(../imagens/relógios-div-items/versão-2.jpg);
         background-position: center center;
         background-size: cover;
     }
@@ -92,9 +100,9 @@
     div#item2 {
         flex-grow: .5;
         margin: 0px 1%;
-        transition-property: flex-grow;
-        transition-duration: .7s;
-        background-image: url(../imagens/relógios-div-items/versão-6.jpg);
+        transition-property: flex-grow,opacity;
+        transition-duration: .7s, .7s;
+        background-image: url(../imagens/relógios-div-items/versão-1.jpg);
         background-position: center center;
         background-size: cover;
     }
@@ -102,27 +110,30 @@
     div#item3 {
         flex-grow: 1;
         margin-right: 10%;
-        transition-property: flex-grow;
-        transition-duration: .7s;
+        transition-property: flex-grow,opacity;
+        transition-duration: .7s, .7s;
         background-image: url(../imagens/relógios-div-items/versão-4.jpg);
         background-position: center center;
         background-size: cover;
     }
     
     div#item1:hover {
-        flex-grow: 20;
+        flex-grow: 15;
         animation-duration: 2s;
         cursor: pointer;
+        opacity: 15%;
     }
     
     div#item2:hover {
-        flex-grow: 20;
+        flex-grow: 15;
         cursor: pointer;
+        opacity: 15%;
     }
     
     div#item3:hover {
-        flex-grow: 20;
+        flex-grow: 15;
         cursor: pointer;
+        opacity: 15%;
     }
 
     section#catalogo-c {
@@ -180,7 +191,7 @@
         background-image: url(../imagens/relogio-celular.jpg);
         background-position: center center;
         background-size: cover;
-        backdrop-filter: blur(5px);
+        
     }
     
     div#item2 {
